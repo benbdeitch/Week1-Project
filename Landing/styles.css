@@ -2,6 +2,14 @@
 .txt-sml{
     font-size:0.75rem; 
 }
+.outer-box{
+    padding-top:3rem; 
+}
+@media only screen and (max-width: 600px) {
+    outer-box{
+        padding-top:0rem; 
+    }
+}
 .nav-item{
     display: inline-block;
     margin:0px 1rem;
@@ -38,6 +46,9 @@ nav-bar * {
     align-items:center; 
     aspect-ratio:1/1; 
     width:7.5rem;
+}
+.grid-card p{
+    font-size:0.75rem; 
 }
 .grid-card>img{
     height:50px;
