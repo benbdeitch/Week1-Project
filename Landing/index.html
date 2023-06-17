@@ -14,24 +14,24 @@
 </head>
 <body>
   <!-- Navbar Start-->
-  <nav class="navbar nav-bar-expand navbar-light bg-light">
+  <nav class="navbar nav-bar-expand navbar-light bg-light sticky-top">
     <!-- Nav-bar Brand Image-->
     <span class="navbar-brand mb-0 h1"><img src="../Image/images/logo (1).png"></span>
       <!-- Navbar Center List-->
       <ul class="navbar-nav mr-auto flex-row">
-        <li class="nav-item active">
+        <li class="nav-item active bar-list">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item bar-list">
           <a class="nav-link" href="#">Features</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item bar-list">
           <a class="nav-link" href="#">Pricing</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">How it works</a>
+        <li class="nav-item bar-list">
+          <a class="nav-link" href="#"> How it works  </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item bar-list">
           <a class="nav-link" href="#">Support</a>
         </li>
       </ul>
@@ -43,27 +43,32 @@
     </div>
   </nav>
   <!-- Background Container-->
-  <div class="container-fluid">
-    <!--Left half of Homepage-->
-    <div class="left-side">
-      <!-- Heading-->
-      <h1></h1>
-      <!-- Subtitle-->
-      <h5></h5>
-      <!-- Description-->
-      <p></p>
-      <!-- Buttons-->
-      <span>
-        <div class="btn-outline"></div>
-        <div class="btn-primary"></div>
-      </span>
-    </div>
-  </div>
   <!-- Row setup -->
-  <div class="container-fluid row"
+  <div class="container-fluid row">
     <!-- left side col-->
-    <div class="left-side col ">
-      
+    <div class="left-side col container-fluid">
+      <!-- Container for the left side's content-->
+      <div class="left-box d-flex flex-column text-left">
+        <br><br>
+        <!--Heading-->
+        <h1>Focus on <br> Your Business</h1>
+        <!-- Sub-heading-->
+        <h5>Let us handle everything else</h5>
+        <!-- Explanatory text-->
+        <p>Subscription billing, powered with revenue retention tools and a seamless customer experience- without the technical hurdles</p>
+        <!-- Button Wrapper-->
+        <div class="btn-wrapper">
+          <Sign up button></Sign>
+          <span class="btn btn-outline-primary" href="../Sign-Up Page/index.html"> Sign up free <i class="fa-solid fa-angles-right" style="color: #4919f8;"></i></span>
+          <!-- Chat with us button-->
+          <div class="btn btn-primary"> Chat with us</div>
+        </div>
+        <br>
+        <!--Already using doubletap?-->
+        <p> <strong>Already using Double</strong>Tap? <a href= "../Sign-In/index.html"><strong>Sign in</strong></a></p>
+        <!-- Benefits details-->
+        <p class="txt-sml">Free 14-day trial <i class="fa-solid fa-circle fa-xs" style="color: #4518ec;"></i> Manage customers in minutes <i class="fa-solid fa-circle fa-xs" style="color: #4518ec;"></i> Cancel at any time</p>
+      </div>
     </div>
     <!-- Right-side Column-->
     <div class="right-side col">
@@ -146,6 +151,6 @@
 
     </div>
   </div>
-  
+  <hr>
   </body>
 </html>

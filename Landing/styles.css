@@ -1,5 +1,8 @@
 
-li{
+.txt-sml{
+    font-size:0.75rem; 
+}
+.nav-item{
     display: inline-block;
     margin:0px 1rem;
 }
@@ -19,6 +22,13 @@ nav-bar * {
     gap:1rem;
     margin-top:3rem;
     margin-bottom:3rem;
+}
+.left-box{
+    display:flex;
+    justify-content:left;
+   
+    padding-left:3 rem !important;
+    margin-top:2 rem;
 }
 .grid-card{
     padding:1rem;
