@@ -107,20 +107,29 @@ nav-bar * {
 .main-container > hr {
     margin-bottom:3rem; 
 }
-
+.subtitle-text{
+    max-width:calc(520/16*1rem);
+    align-self:center; 
+    translate:55%;
+    margin-top:1rem; 
+    margin-bottom:2rem; 
+}
 .main-section-card-logo{
    
     width:50px; 
 }
 .row-of-card{
-    justify-content:space-evenly
+    justify-content:space-evenly;
+    margin-top:3rem; 
 }
 .main-section-card{
     text-align:center; 
     justify-content:center; 
     padding:3rem; 
     align-items:center; 
-    width:100px; 
+    width:8rem; 
+    height:9rem; 
+    gap:4 rem; 
 }
 
 .main-section-card:nth-of-type(4){
@@ -132,5 +141,109 @@ nav-bar * {
 .card-container{
     display:flex; 
     justify-content:space-evenly; 
-    margin:0px 15px; 
+    margin:0px 15px;
+}
+
+.info-card{
+    margin-top:4rem; 
+    display:flex; 
+    flex-direction:row; 
+    max-width:50rem;
+    aspect-ratio:calc(800/420);
+    background: linear-gradient(90deg, white 50%, #0D6EFD 50%);
+    border-color:black; 
+    
+}
+.info-card-left{
+    
+width: 340px;
+height: 420px;
+left: 0px;
+top: 0px;
+aspect-ratio:calc(340/420); 
+background-color:white; 
+background: url("../Image/images/credit-card.png"), #FFFFFF;
+}
+.info-card-right{
+    max-width:calc(460/16*1rem);
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center;
+    padding:0px 2rem;
+    gap:1rem; 
+    background-color:#0D6EFD;
+    color:white; 
+}
+
+.info-card .btn{
+    align-self:flex-start; 
+    padding:0.5rem 2rem; 
+    background-color:white; 
+    transition: 0.4s;
+}
+.info-card .btn:hover{
+    background-color:#2959a1
+}
+
+.info-card-right> *{
+    max-width: calc(420/16*1rem);
+}
+info-card-row{
+    display:flex;
+    align-items:center; 
+}
+.four-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 13px;
+    text-align:center; 
+    justify-content:center; 
+    width: calc(280/16*1rem);
+    height: calc(350/16*1rem);
+    margin-top:4rem; 
+}
+.four-card-image-circle{
+    height:8rem;
+    width:8rem; 
+    border-radius:50%; 
+    display:flex;
+    justify-content:center; 
+    align-items:center; 
+}
+.four-card .btn{
+    width:100%; 
+    padding-top: 0.5rem; 
+    padding-bottom:0.5rem; 
+}
+
+.four-card-row{
+    display:flex; 
+    justify-content:space-evenly;
+    margin-top:4rem; 
+}
+.btn-green{
+    background-color:#2BC744;
+    color:white; 
+}
+.btn-white-background{
+    background-color:white; 
+}
+footer{
+    gap:1rem; 
+}
+@media only screen and (max-width: 750px) {
+    .info-card{
+        flex-direction:column; 
+        background: linear-gradient(180deg, white 50.6%, #0D6EFD 50%);
+    }
+    .info-card-right{
+        max-width:none;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        padding-top:1rem; 
+        padding-bottom:1rem; 
+        
+    }
 }
