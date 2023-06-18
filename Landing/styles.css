@@ -5,10 +5,11 @@
 .outer-box{
     padding-top:3rem; 
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 670px) {
     outer-box{
         padding-top:0rem; 
     }
+    
 }
 .nav-item{
     display: inline-block;
@@ -37,6 +38,11 @@ nav-bar * {
    
     padding-left:3 rem !important;
     margin-top:2 rem;
+}
+
+.left-box >*{
+    min-width:12rem;
+    margin-left:3rem; 
 }
 .grid-card{
     padding:1rem;
@@ -89,4 +95,42 @@ nav-bar * {
 }
 .grid-card:nth-of-type(7){
     border-bottom-left-radius:50%; 
+}
+
+
+/*--------------- Past the Hero Section*/
+
+.main-container {
+    margin:10%; 
+    
+}
+.main-container > hr {
+    margin-bottom:3rem; 
+}
+
+.main-section-card-logo{
+   
+    width:50px; 
+}
+.row-of-card{
+    justify-content:space-evenly
+}
+.main-section-card{
+    text-align:center; 
+    justify-content:center; 
+    padding:3rem; 
+    align-items:center; 
+    width:100px; 
+}
+
+.main-section-card:nth-of-type(4){
+    text-align:center; 
+    justify-content:center; 
+    padding:2rem; 
+    align-items:center; 
+}
+.card-container{
+    display:flex; 
+    justify-content:space-evenly; 
+    margin:0px 15px; 
 }
