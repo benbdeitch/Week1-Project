@@ -5,18 +5,33 @@
 .outer-box{
     padding-top:3rem; 
 }
+.small-bar{
+    visibility:hidden;
+}
 @media only screen and (max-width: 670px) {
     outer-box{
         padding-top:0rem; 
+        
+    }
+    #navbarDropdown{
+        visibility:visible;
+    }
+    .nav-center-list{
+        display:none; 
+    }
+    .small-bar{
+        visibility:visible;
     }
     
 }
+
 .nav-item{
     display: inline-block;
     margin:0px 1rem;
 }
-nav-bar * {
+navbar * {
     margin-top:1-rem;
+    background-color:light; 
 }
 .right-side{
     display:flex;
