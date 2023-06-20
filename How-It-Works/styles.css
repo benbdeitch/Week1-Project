@@ -4,7 +4,40 @@
     align-items: center;
     margin: 2% 10% 5% 10%;
 }
+.txt-sml{
+    font-size:0.75rem; 
+}
+.outer-box{
+    padding-top:3rem; 
+}
+.small-bar{
+    visibility:hidden;
+}
+@media only screen and (max-width: 670px) {
+    outer-box{
+        padding-top:0rem; 
+        
+    }
+    #navbarDropdown{
+        visibility:visible;
+    }
+    .nav-center-list{
+        display:none; 
+    }
+    .small-bar{
+        visibility:visible;
+    }
+    
+}
 
+.nav-item{
+    display: inline-block;
+    margin:0px 1rem;
+}
+navbar * {
+    margin-top:1-rem;
+    background-color:light; 
+}
 .how-it-works-collect-info {
     text-align: center;
     font-weight: normal;
